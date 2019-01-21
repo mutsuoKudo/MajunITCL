@@ -1,0 +1,6 @@
+/*!
+ jQuery multibyte characters length count plugin jCount | MIT License
+ (c) iwbjp - http://iwb.jp/jquery-jcount/
+ */
+(function(b){function g(b){for(var a=0,c=0;c<b.length;c++)a+=255>=b.charCodeAt(c)?1:2;return a/2}b.fn.jcount=function(f){var a=b.extend({},b.fn.jcount.defaults,f),c=this;f=c.val();var d=a.limit-c.val().length;a.mb&&(d=a.limit-g(f));b(a.target).html(a.before+d+a.after);0>d?(b(a.target).addClass("over").css("color",a.color),a.over&&b(a.target).html(a.over)):b(a.target).removeClass("over").css("color","");var e={timeout:"",_focus:function(){a.mb?d=a.limit-g(c.val()):(d=c.val().length,d=a.limit-d);b(a.target).html(a.before+
+d+a.after);0>d?(b(a.target).addClass("over").css("color",a.color),a.over&&b(a.target).html(a.over)):b(a.target).removeClass("over").css("color","");e.timeout=setTimeout(e._focus,100)}};c.bind("focus",function(){e._focus()});c.bind("blur",function(){clearTimeout(e.timeout)})};b.fn.jcount.defaults={target:"#counter",before:"",after:"",limit:10,color:"#FF0000",mb:!0,over:""}})(jQuery);
