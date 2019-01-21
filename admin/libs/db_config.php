@@ -1,8 +1,8 @@
 <?php
 // test server
-    define('DB_HOST', 'mysql:dbname=aa221k0x22_enlabo;host=127.0.0.1;charset=utf8');
-    define('DB_USER', 'aa221k0x22');
-    define('DB_PASS', 'XgGfD7m5');
+//    define('DB_HOST', 'mysql:dbname=aa221k0x22_enlabo;host=127.0.0.1;charset=utf8');
+//    define('DB_USER', 'aa221k0x22');
+//    define('DB_PASS', 'XgGfD7m5');
 //    define('DB_NAME', 'enlabo');
 
 ////egm server
@@ -12,9 +12,9 @@
 //    define( 'DB_NAME', 'egm_enlabo' );
 
 // localserver
-//    define( 'DB_HOST', 'mysql:dbname=e_job;host=localhost' );
-//    define( 'DB_USER', 'root');
-//    define( 'DB_PASS', '' );
+    define( 'DB_HOST', 'mysql:dbname=majunit;host=localhost' );
+    define( 'DB_USER', 'MajunIT');
+    define( 'DB_PASS', 'MajunITPass' );
 //    define( 'DB_NAME', 'e_job' );
 //}
 

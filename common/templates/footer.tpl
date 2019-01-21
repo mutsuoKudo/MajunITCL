@@ -32,14 +32,14 @@
     }
     ?>
         </div>
-    <img src="/common/images/sub/selected.png" alt="選択中案件">
+    <img src="common/images/sub/selected.png" alt="選択中案件">
     <form id="eform" method="post" action="">
         <ul class="bg_checkbox2"></ul>
         <div class="sub-entry">
             <p>スキルシートをお持ちでない方は、メールアドレスをご記入下さい。</p>
             <input type="text" name="email" id="email" value="" placeholder="メアド入力だけで簡単エントリー">
             <p>スキルシートをお持ちの方は、添付して下さい。</p>
-            <div class="file"><img src="/common/images/sub/file.png" alt="添付"><input type="file" name="file"></div>
+            <div class="file"><img src="common/images/sub/file.png" alt="添付"><input type="file" name="file"></div>
             <div id="entry">ENTRY</div>
         </div>
     </form>
@@ -62,12 +62,12 @@
 </div>
 <!--/container-->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script>window.jQuery || document.write("<script src='/common/js/jquery.min.js'>\x3C/script>")</script>
+<script>window.jQuery || document.write("<script src='common/js/jquery.min.js'>\x3C/script>")</script>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-<!-- build:js /common/js/all.min.js -->
-<script src="/common/js/jquery.cookie.js"></script>
+<!-- build:js common/js/all.min.js -->
+<script src="common/js/jquery.cookie.js"></script>
 <?php if(isset($thispage) and $thispage == "detail" and $d['addr'] and !$d['map'] and isset($this_is_not_set)){ ?>
-<script src="/common/js/map.js"></script>
+<script src="common/js/map.js"></script>
 <script type="text/javascript">
     var url = $.staticMap({
         markerIcon : 'http://tinyurl.com/2ftvtt6',
@@ -84,7 +84,7 @@
     $('.liveMap').attr('href', urlLive);
 </script>
 <?php }?>
-<script src="/common/js/common.js"></script>
+<script src="common/js/common.js"></script>
 <!-- endbuild -->
 </body>
 </html>
