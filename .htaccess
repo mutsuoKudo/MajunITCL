@@ -1,6 +1,6 @@
 <Files src>
     Options +MultiViews
 </Files>
-AddHandler x-httpd-php559 .php
-suPHP_ConfigPath /usr/home/aa221k0x22/html/cgi-bin/
-Header append Access-Control-Allow-Origin: *
+#AddHandler x-httpd-php559 .php
+#suPHP_ConfigPath /usr/home/aa221k0x22/html/cgi-bin/
+#Header append Access-Control-Allow-Origin: *

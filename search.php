@@ -112,7 +112,7 @@ include_once("common/templates/header.tpl");
     	<div class="main-cont">
             <div class="list-title">
                 <?php if($rec) $src = "osusume"; else $src = "search_res";?>
-                <img src="/common/images/main/<?php echo $src?>.png" alt="検索結果">
+                <img src="common/images/main/<?php echo $src?>.png" alt="検索結果">
             </div>
             <?php if(empty($list[0])){?>
                     <div class="searchbox">
@@ -149,7 +149,7 @@ include_once("common/templates/header.tpl");
                 <tr>
                     <th>
                         <?php if($seg0){?>
-                        <img src="/common/images/seg/0<?php echo $seg0?>.gif" alt="<?php echo $seg?>">
+                        <img src="common/images/seg/0<?php echo $seg0?>.gif" alt="<?php echo $seg?>">
                         <?php }else{echo $seg?>
                         <?php }?>
                     </th>

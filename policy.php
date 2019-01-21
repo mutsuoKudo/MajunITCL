@@ -6,7 +6,7 @@ include_once("common/templates/header.tpl");
     <div id="contents" class="clearfix">
     	<div class="main-cont">
                     <div class="list-title">
-                        <img src="/common/images/main/policy.png" alt="ポリシー" class="fix">
+                        <img src="common/images/main/policy.png" alt="ポリシー" class="fix">
                     </div>
                     <div class="policy">
                 <p>プライバシーポリシーPrivacy Policy</p>

@@ -68,7 +68,7 @@ q:before, q:after {
 	content: none;
 }
 
-input, textarea,{
+input, textarea{
 	margin: 0;
 	padding: 0;
 }

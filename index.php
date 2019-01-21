@@ -24,9 +24,9 @@ include_once("common/templates/header.tpl");
 ?>
     <div id="contents" class="clearfix">
     	<div class="main-cont">
-            <img src="/common/images/main/tb.png" class="theader01" alt="">
+            <img src="common/images/main/tb.png" class="theader01" alt="">
             <div class="searchbox">
-                <img src="/common/images/main/search_title.png" alt="希望条件を選択してください。">
+                <img src="common/images/main/search_title.png" alt="希望条件を選択してください。">
                 <ul class="tabs clearfix">
                     <li id="skill" class="tab active"><a href="#cont1">スキル1</a></li>
                     <li id="blank" class="tab"><a href="#cont6">スキル2</a></li>
@@ -200,7 +200,7 @@ include_once("common/templates/header.tpl");
                                 ?>
                             </ul>
                         </div>
-                    <img src="/common/images/main/selected.png" alt="選択した項目">
+                    <img src="common/images/main/selected.png" alt="選択した項目">
                     <div class="clearfix">
                         <div class="selected">
                             <ul class="clearfix" id="chklist"></ul>
@@ -211,7 +211,7 @@ include_once("common/templates/header.tpl");
                 </form>
             </div>
             <div class="list-title">
-                <img src="/common/images/main/new.png" alt="New 新着案件">
+                <img src="common/images/main/new.png" alt="New 新着案件">
                 <p>今週の求人情報をご紹介します。</p>
             </div>
             <table class="list">
@@ -239,7 +239,7 @@ include_once("common/templates/header.tpl");
                 <tr>
                     <th>
                         <?php if($seg0){?>
-                        <img src="/common/images/seg/0<?php echo $seg0?>.gif" alt="<?php echo $seg?>">
+                        <img src="common/images/seg/0<?php echo $seg0?>.gif" alt="<?php echo $seg?>">
                         <?php }else{echo $seg?>
                         <?php }?>
                     </th>

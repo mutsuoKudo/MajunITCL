@@ -6,7 +6,7 @@ include_once("common/templates/header.tpl");
     <div id="contents" class="clearfix">
     	<div class="main-cont">
             <div class="list-title">
-                <img src="/common/images/main/cp.png" alt="会社概要" class="fix">
+                <img src="common/images/main/cp.png" alt="会社概要" class="fix">
             </div>
                 <table class="cp">
                     <tr>

@@ -26,7 +26,7 @@ a:hover {
   min-height: 100%; }
 
 body {
-  background: url("/common/images/bg.gif") repeat; }
+  background: url("../images/bg.gif") repeat; }
 
 /* #header                                         [+]
 -------------------------------------------------- */
@@ -45,7 +45,7 @@ body {
     padding-left: 5px; }
   #header .inner {
     height: 47px;
-    background: url("/common/images/hdrftr/mbg.gif") repeat; }
+    background: url("../images/hdrftr/mbg.gif") repeat; }
   #header ul {
     width: 928px;
     margin: 0 auto;
@@ -57,7 +57,7 @@ body {
   #header .title {
     position: relative;
     height: 289px;
-    background: url("/common/images/hdrftr/header.png") no-repeat; }
+    background: url("../images/hdrftr/header.png") no-repeat; }
     #header .title .logo {
       position: absolute;
       right: 25px;
@@ -110,35 +110,35 @@ body {
           white-space: nowrap;
           overflow: hidden; }
       #contents .main-cont .tabs #skill {
-        background: url("/common/images/main/smenu.png") no-repeat; }
+        background: url("../images/main/smenu.png") no-repeat; }
         #contents .main-cont .tabs #skill:hover, #contents .main-cont .tabs #skill.active {
           background-position: 0px -31px; }
       #contents .main-cont .tabs #area {
-        background: url("/common/images/main/smenu.png") no-repeat;
+        background: url("../images/main/smenu.png") no-repeat;
         background-position: -113px 0; }
         #contents .main-cont .tabs #area:hover, #contents .main-cont .tabs #area.active {
           background-position: -113px -31px; }
       #contents .main-cont .tabs #price {
         width: 113px;
-        background: url("/common/images/main/smenu.png") no-repeat;
+        background: url("../images/main/smenu.png") no-repeat;
         background-position: -227px 0; }
         #contents .main-cont .tabs #price:hover, #contents .main-cont .tabs #price.active {
           background-position: -227px -31px; }
       #contents .main-cont .tabs #work {
         width: 114px;
-        background: url("/common/images/main/smenu.png") no-repeat;
+        background: url("../images/main/smenu.png") no-repeat;
         background-position: -340px 0; }
         #contents .main-cont .tabs #work:hover, #contents .main-cont .tabs #work.active {
           background-position: -340px -31px; }
       #contents .main-cont .tabs #other {
         width: 115px;
-        background: url("/common/images/main/smenu.png") no-repeat;
+        background: url("../images/main/smenu.png") no-repeat;
         background-position: -454px 0; }
         #contents .main-cont .tabs #other:hover, #contents .main-cont .tabs #other.active {
           background-position: -454px -31px; }
       #contents .main-cont .tabs #blank {
         width: 115px;
-        background: url("/common/images/main/smenu.png") no-repeat;
+        background: url("../images/main/smenu.png") no-repeat;
         background-position: -568px 0; }
         #contents .main-cont .tabs #blank:hover, #contents .main-cont .tabs #blank.active {
           background-position: -568px -31px; }
@@ -169,7 +169,7 @@ body {
           opacity: 0;
           position: absolute; }
         #contents .main-cont .bg_checkbox li label {
-          background: url("/common/images/main/chk.gif") no-repeat;
+          background: url("../images/main/chk.gif") no-repeat;
           background-position: 0 0;
           height: 19px;
           line-height: 25px;
@@ -230,11 +230,11 @@ body {
       height: 47px;
       cursor: pointer;
       display: block;
-      background: url("/common/images/main/search_off.png") no-repeat; }
+      background: url("../images/main/search_off.png") no-repeat; }
       #contents .main-cont .search:hover {
-        background: url("/common/images/main/search_on.png") no-repeat; }
+        background: url("../images/main/search_on.png") no-repeat; }
     #contents .main-cont .list-title {
-      background: url("/common/images/main/tb2.png") no-repeat;
+      background: url("../images/main/tb2.png") no-repeat;
       height: 37px;
       position: relative; }
       #contents .main-cont .list-title img {
@@ -280,7 +280,7 @@ body {
       border-bottom-left-radius: 6px;
       border: 1px solid #ccc;
       padding: 5px 20px 20px 20px;
-      background: url("/common/images/main/pointer.gif") no-repeat #fff 5px 5px;
+      background: url("common/images/main/pointer.gif") no-repeat #fff 5px 5px;
       position: relative; }
       #contents .main-cont .detail-top .new {
         text-indent: 100%;
@@ -288,7 +288,7 @@ body {
         overflow: hidden;
         width: 40px;
         height: 22px;
-        background: url("/common/images/main/new.gif") no-repeat #fff;
+        background: url("common/images/main/new.gif") no-repeat #fff;
         position: absolute;
         right: 20px;
         top: 10px; }
@@ -327,13 +327,13 @@ body {
           padding-left: 10px;
           font-size: 14px;
           font-weight: bold;
-          background: url("/common/images/main/pat.gif");
+          background: url("common/images/main/pat.gif");
           filter: dropshadow(color=#6fa2db, offX=0, offY=-2) dropshadow(color=#6fa2db, offX=2, offY=0) dropshadow(color=#6fa2db, offX=0, offY=2) dropshadow(color=#6fa2db, offX=-2, offY=0);
           -webkit-text-stroke-color: #fff;
           text-shadow: 2px 2px 1px #6fa2db, -2px 2px 1px #6fa2db, 2px -2px 1px #6fa2db, -2px -2px 1px #6fa2db;
           color: #fff; }
     #contents .main-cont .ar {
-      background: url("/common/images/sub/ar.gif") no-repeat scroll 0 3px;
+      background: url("common/images/sub/ar.gif") no-repeat scroll 0 3px;
       padding-left: 1.5em;
       margin: 40px auto 10px;
       width: 320px; }
@@ -345,7 +345,7 @@ body {
       width: 272px;
       height: 49px;
       margin: 0 auto;
-      background: url("/common/images/main/oki.png") no-repeat 0px 0px; }
+      background: url("common/images/main/oki.png") no-repeat 0px 0px; }
       #contents .main-cont .jq:hover {
         background-position: 0 -101px; }
       #contents .main-cont .jq.active {
@@ -354,7 +354,7 @@ body {
       width: 531px;
       height: 225px;
       margin: 20px auto;
-      background: url("/common/images/main/entry.jpg") repeat; }
+      background: url("common/images/main/entry.jpg") repeat; }
       #contents .main-cont .entry .e1 {
         margin-left: 55px;
         padding-top: 17px;
@@ -387,7 +387,7 @@ body {
           #contents .main-cont .entry .e2 .file .fileimg {
             width: 104px;
             height: 35px;
-            background: url("/common/images/main/file.png") repeat; }
+            background: url("common/images/main/file.png") repeat; }
             #contents .main-cont .entry .e2 .file .fileimg:hover {
               background-position: 0 -35px; }
           #contents .main-cont .entry .e2 .file input[type="file"] {
@@ -407,7 +407,7 @@ body {
         margin: 0 auto;
         width: 180px;
         height: 55px;
-        background: url("/common/images/main/entry02.png") repeat; }
+        background: url("common/images/main/entry02.png") repeat; }
         #contents .main-cont .entry .entry2:hover {
           background-position: 0 -55px; }
     #contents .main-cont .detail-table {
@@ -490,7 +490,7 @@ body {
           opacity: 0;
           position: absolute; }
         #contents .sub-cont .bg_checkbox2 li label {
-          background: url("/common/images/sub/chk_off.png") no-repeat;
+          background: url("common/images/sub/chk_off.png") no-repeat;
           background-position: 0 2px;
           line-height: 25px;
           display: block;
@@ -501,7 +501,7 @@ body {
           #contents .sub-cont .bg_checkbox2 li label input {
             cursor: pointer; }
         #contents .sub-cont .bg_checkbox2 li .c_on {
-          background: url("/common/images/sub/chk.png") no-repeat;
+          background: url("common/images/sub/chk.png") no-repeat;
           background-position: 0 2px; }
     #contents .sub-cont .sub-entry {
       font-size: 12px;
@@ -517,7 +517,7 @@ body {
       border-bottom-left-radius: 6px; }
       #contents .sub-cont .sub-entry p {
         padding-left: 1.5em;
-        background: url("/common/images/sub/ar.gif") no-repeat;
+        background: url("common/images/sub/ar.gif") no-repeat;
         background-position: 0 3px; }
       #contents .sub-cont .sub-entry #email {
         width: 188px;
@@ -549,7 +549,7 @@ body {
         width: 153px;
         height: 40px;
         margin: 10px auto 0;
-        background: url("/common/images/sub/entry.png") no-repeat; }
+        background: url("common/images/sub/entry.png") no-repeat; }
         #contents .sub-cont .sub-entry #entry:hover {
           background-position: 0 -44px; }
 
@@ -596,7 +596,7 @@ body {
     left: 25px;
     width: 149px;
     height: 26px;
-    background: url("/common/images/hdrftr/footer_logo.png") no-repeat; }
+    background: url("common/images/hdrftr/footer_logo.png") no-repeat; }
   #footer p {
     width: 100%;
     max-width: 950px;
